@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* old font */
+    font-family: 'Times New Roman', Times, serif
+}
+
+body {
+    background-image: url("/images/texture.jpg");
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.flex div {
+    margin: 20px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.flex div img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.coordinates {
+    display: none;
+}
